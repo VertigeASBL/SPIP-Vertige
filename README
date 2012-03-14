@@ -1,1 +1,42 @@
+<<<<<<< HEAD
 hello les amateurs de boucles
+=======
+
+
+Global setup:
+
+ Set up git > http://help.github.com/set-up-git-redirect
+  git config --global user.name "Your Name"
+  git config --global user.email emmanuel@TICanalyste.be
+Add your public key > https://github.com/account/ssh
+      
+
+Next steps:
+
+  mkdir SPIP-Vertige
+  cd SPIP-Vertige
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:TICanalyste/SPIP-Vertige.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:TICanalyste/SPIP-Vertige.git
+  git push -u origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue > https://github.com/TICanalyste/SPIP-Vertige
+
+>>>>>>> Readme pas vide
